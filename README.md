@@ -1,28 +1,28 @@
 # OlympicGamesDataSetAnalysis
 
-### Суть программы
-Программа производит анализ датасета призеров Олимпийских игр с 1896 года по 2016. Сортирует призеров по весу, возрасту и росту. Производит аналитику призеров мужчин и женщин в каждый год. Проводит аналитику по самым успешным странам по количеству призеров в каждый год и за все время. Проводит аналитику по возрасту призеров в каждый год. Создает соответствующие каталоги в директории запуска, состоящие из необходимых таблиц и графиков.
+### The essence of the program
+The program analyzes the dataset of Olympic medalists from 1896 to 2016. Sorts the winners by weight, age and height. Produces analytics of male and female prize winners in each year. Conducts analytics on the most successful countries by the number of winners in each year and for all time. Conducts analytics on the age of the winners in each year. Creates the appropriate directories in the startup directory, consisting of the necessary tables and graphs.
 
-### Описание файлов
-* **main.py**            - Главный файл программы. 
-Вызывает функции из остальных файлов, а именно, те которые отвечают за подготовку, анализ, генерацию таблиц и графиков.
-* **set_options**        - Вспомогательный файл программы.
-Устанавливает необходимые параметры для корректной работы библиотеки pandas.
-* **sex_stat.py**        - Вспомогательный файл программы.
-Анализ призеров олимпиады, в зависимости от пола.
-* **age_stat.py**        - Вспомогательный файл программы.
-Анализ призеров олимпиады, в зависимости от возраста.
-* **sorting_data.py**    - Вспомогательный файл программы.
-Сортировка призеров по весу, возрасту и росту.
-* **top_countries.py**   - Вспомогательный файл программы.
-Анализ самых успешных стран по количеству призеров.
-* **athlete_events.rar** - Архив с excel-таблицей.
-Содержит таблицу, необходимую для анализа.
+### File Description
+* **main.py ** - The main program file. 
+Calls functions from other files, namely those that are responsible for the preparation, analysis, generation of tables and graphs.
+* **set_options** - Auxiliary program file.
+Sets the necessary parameters for the correct operation of the pandas library.
+* **sex_stat.py ** - Auxiliary program file.
+Analysis of the winners of the Olympiad, depending on gender.
+* **age_stat.py ** - Auxiliary program file.
+Analysis of the winners of the Olympiad, depending on age.
+* **sorting_data.py ** - Auxiliary program file.
+Sorting of winners by weight, age and height.
+* **top_countries.py ** - Auxiliary program file.
+Analysis of the most successful countries by the number of winners.
+* **athlete_events.rar ** - Archive with an excel spreadsheet.
+Contains the table required for analysis.
 
-### Как запустить
-1. Загрузить все проектные файлы в одну директорию, туда же распаковав архив.
-2. Установить интерпретатор python (рекоммендуемая версия 3.8 и более).
-3. Установить библиотеки pandas и matplotlib (можно использовать систему управления пакетами pip, предварительно установив ее и прописав в консоли: pip install pandas и pip install matplotlib).
-4. Перейти в директорию файлов
-5. Запустить интерпретатором python файл main.py.
-6. Наслаждаться генерацией директорий с таблицами и графиками.
+### How to launch
+1. Upload all project files to one directory, unpacking the archive there.
+2. Install the python interpreter (recommended version 3.8 and later).
+3. Install the pandas and matplotlib libraries (you can use the pip package management system by pre-installing it and writing in the console: pip install pandas and pip install matplotlib).
+4. Go to the files directory
+5. Run the python interpreter file main.py .
+6. Enjoy generating directories with tables and graphs.
