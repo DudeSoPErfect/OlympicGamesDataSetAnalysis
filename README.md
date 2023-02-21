@@ -6,7 +6,7 @@ The program analyzes the dataset of Olympic medalists from 1896 to 2016. Sorts t
 ### File Description
 * **main.py ** - The main program file. 
 Calls functions from other files, namely those that are responsible for the preparation, analysis, generation of tables and graphs.
-* **set_options ** - Auxiliary program file.
+* **set_options** - Auxiliary program file.
 Sets the necessary parameters for the correct operation of the pandas library.
 * **sex_stat.py ** - Auxiliary program file.
 Analysis of the winners of the Olympiad, depending on gender.
